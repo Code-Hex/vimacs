@@ -1,14 +1,10 @@
-vimとemacsの宗教戦争を終わらすためにRubyで低クオリティーのGIエディターを作りました。
+###vimとemacsの宗教戦争を終わらすためにRubyで低クオリティーのGIエディターを作りました。by kazuminn
 
-#使い方
-ruby2.0.0をインストールします。
+若干進化させました。
 
-ruby shoesをインストールします。アプリまでのパスをaliasします。
-
-コードの7行目のnoname.textを好きな名前に変更します。
-
-shoes ./vimacs.rbで起動します。
-
-適当に書いてsaveボタンをクリックするとnoname.textの変更したファイル名に保存されます。
-
-#なんて便利なんでしょう！！！！
+#使い方(Mac Only)
+Home brew のインストール
+gemから green_shoesのインストール(インストール時に失敗すると思われるが、ちゃんと "brew install ..."   してね見たいに書いてあるから、それをちゃんとやりながらインストールしようね！)  
+  
+###参考  
+https://github.com/ashbb/green_shoes
