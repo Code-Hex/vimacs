@@ -6,9 +6,9 @@ require 'green_shoes'
             flow do
                 Edit_line = edit_line width: 340
                 button "Open" do
-                    Chose_files = ask_open_file
-                    Edit.text = File.read(Chose_files)
-                    Edit_line.text = Chose_files
+                    Choose_files = ask_open_file
+                    Edit.text = File.read(Choose_files)
+                    Edit_line.text = Choose_files
                 end
 
                 button "Indent" do
@@ -29,7 +29,7 @@ require 'green_shoes'
 
                     Edit = edit_box width: '100%', height: 300, font: "osaka-mono"
                     button "Save", width: '100%' do
-                    File.open(Chose_files, 'wb') do |files|
+                    File.open(Choose_files, 'wb') do |files|
                         files.write Edit.text
                 end
             end
