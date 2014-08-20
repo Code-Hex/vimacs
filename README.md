@@ -1,4 +1,4 @@
-###vimとemacsの宗教戦争を終わらすためにRubyで低クオリティーのGIエディターを作りました。by kazuminn
+###vimとemacsの宗教戦争を終わらすためにRubyで低クオリティーのGUIエディターを作りました。by kazuminn
 
 rubyの練習ついでに若干進化させました。
 
