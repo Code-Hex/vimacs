@@ -1,4 +1,4 @@
-require 'rubygems'
+require 'rubygems' # なくてもいいとは思う
 require 'green_shoes'
 # coding : utf-8
 
